@@ -5,6 +5,7 @@
 
 class HealthActivity {
 public:
+    HealthActivity();
     HealthActivity(const std::string& name, int steps, double distance);
 
     void SetName(const std::string& name);

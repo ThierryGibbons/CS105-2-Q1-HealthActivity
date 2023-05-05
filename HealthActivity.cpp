@@ -1,5 +1,8 @@
 #include "HealthActivity.h"
 
+HealthActivity::HealthActivity()
+    : name_(""), steps_(0), distance_(0) {}
+
 HealthActivity::HealthActivity(const std::string& name, int steps, double distance)
     : name_(name), steps_(steps), distance_(distance) {}
 
